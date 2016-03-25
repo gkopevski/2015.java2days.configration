@@ -36,4 +36,8 @@
             };
         });
 
+
+    angular.module('common.configuration').constant('SERVICE_ENDPOINT','https://prost.herokuapp.com/api/v1');
+    angular.module('common.configuration').constant('BEER_RAND_ENDPOINT','/beer/rand');
+
 }());
